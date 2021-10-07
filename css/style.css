@@ -5,8 +5,25 @@
     padding-left: 1rem;
     margin-right: auto;
     margin-left: auto;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .record_header {
     display: flex;
+}
+
+body {
+    background-color: #f0f0f0;
+    color: #121212;
+}
+
+nav {
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
+@media screen and (max-width: 768px) {
+    .record_header {
+        flex-direction: column;
+    }
 }
